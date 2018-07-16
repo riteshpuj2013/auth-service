@@ -21,6 +21,9 @@ Authentication and authorization service for patient details
 
 ### Run application:
     "mvn spring-boot:run" 
+    
+### Test Application using Curl or Swagger UI:
+    http://localhost:8080/swagger-ui.html
 
 ### GET /api/prescription to register request for prescription ID - 1
     curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/prescription?prescriptionID=1&requesterID=1'
